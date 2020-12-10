@@ -11,76 +11,36 @@ feature:
     # feature item loop
     - name: "Cloud Oriented"
       icon: "ti-cloud-up"
-      content: "The Artemis Container images are fully compatible with major could environments
-      such as Kubernetes and Openshift. Built on Apache ActiveMQ Artemis project,
-      They provide enterprise level messaging abilities for users
-      to build as a part of their mission critical applications within clould architectures. As Cloud
-      services they have all the benefits that are not available otherwise such as saving hardware
-      and software maintenance cost, having a unified security infrastructure and high availabilities,
-      accessible all around the world.
-      The ActiveMQ Artemis Operator enables user to deploy, configure and manage Artemis broker in the cloud
-      in easy and comprehensive ways. It further eliminates burdens of administrators and developers
-      from dealing with resources, configurations, maintenance and others so that they can be more
-      focus on their business logics. The ActiveMQ Artemis Operator and Artemis messaging broker
-      not only can help new businesses to build their cloud applications from scratch, but also can make
-      traditional businesses with long running non-cloud applications to migrate into cloud environments
-      efficiently."
+      content: "Fully compatible with major could environments
+      such as Kubernetes and Openshift. Enterprise level messaging
+      in cost-effective way. For new businesses as well as migrating
+      existing non-cloud applications."
 
     # feature item loop
     - name: "Kubernetes"
       icon: "ti-package"
-      content: "As part of a group of open-sourced projects collectively called ArtemisCloud,
-      The ActiveMQ Artemis Operator works smoothly within Kubernetes environment and will continually
-      keep up to date with Kubernetes as it progresses. That means users and companies can rely on
-      ArtemisCloud to have latest features, enhancements, security updates and bug fixes that are
-      much needed for their businesses in a timely manner. On the other hand the ArtemisCould community
-      listens to and involves in the open-source world, getting feedbacks and expectations and improve
-      its functionality. With ArtemisCloud in Kubernetes users can perform tasks such as
-
-      * Deploy ActiveMQ Artemis container image that provide enterprise level, multi-protocol messaging services
-      * Scaling up and down broker pods as needed
-      * Configuring/managing broker
-      * Dynamically create/delete destinations
-      * Safely migrate persistent messages while scaling down broker pods
-      * Rolling updates"
+      content: "ArtemisCloud works smoothly within Kubernetes environment and stay up to date.
+      Getting feedbacks and expectations from opensource community and improve functionality."
 
     # feature item loop
     - name: "Openshift"
       icon: "ti-package"
-      content: "The ArtemisCloud also supports Red Hat's Openshift platform.
-      With Openshift you get extra benefits like consistent security,
-      built-in monitoring and centralized policy management. The Red Hat's AMQ
-      broker operator and container images are based on ArtemisCould and ActiveMQ
-      Artemis opensource projects. The operator image bundles are built into
-      Openshift's Operator-Hub that makes things a lot easier. Many of the tasks
-      that used to be done from command line are now available from Operator-Hub's
-      web console. Updating of operators/images becomes ever more easier and safer."
+      content: "The ArtemisCloud works with Openshift platform also.
+      Getting extra benefits like consistent security,
+      built-in monitoring and centralized policy management. It takes advantage of
+      Openshift's Operator-Hub."
 
     # feature item loop
-    - name: "Protocol rich"
+    - name: "Protocol Based"
       icon: "ti-alarm-clock"
-      content: "With ActiveMQ Artemis Kubernetes image deployed into your cloud
-      you'll have a cloud messaging service with a rich set of procotols for you
-      to choose. That protocols including AMQP, MQTT, STOMP, JMS, and CORE with
-      security supports. This allows a wide range of applications to comunicate
-      with messaging service without adding any extra efforts. Multiprotocol support
-      make sure that businesses that are relying on fast and reliable messaging
-      service all over the internet can grow at a global scale. Messaging service
-      in a cloud based on ArtemisCloud can be accessed anywhere and anytime
-      via any of the supported protocols."
+      content: "Rich protocol choice. AMQP, MQTT, STOMP, JMS, and CORE with
+      security supports. Interconnet anywhere, anytime."
 
     # feature item loop
     - name: "High Availability"
       icon: "ti-pulse"
-      content: "With ActiveMQ Artemis Operator and Container images high availability
-      becomes a native feature. Pods can be spawn up and brought down. Performance
-      can be tuned based on specific use-cases through configuration optimization.
-      For enterprise level messaging service that's not all. ArtemisCloud makes sure
-      important business data will not get lost in case of pod failures. It takes care
-      of this by watching all live broker pods. If any pod fails the operator can detect
-      it in real time and can perform message migration -- any persistent messages that
-      are left by the dead pod are moved to a healthy live pod and continue to be processed.
-      That means your applications will not be interrupted in such cases."
+      content: "Easy scaling to your specific needs. Message migration on pod
+      failure recovery. Uninterrupted applications."
 
 ######################### Service #####################
 service:
