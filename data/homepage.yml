@@ -11,27 +11,36 @@ feature:
     # feature item loop
     - name: "Cloud Oriented"
       icon: "ti-cloud-up"
-      content: "The Artemis Container images are...."
+      content: "Fully compatible with major could environments
+      such as Kubernetes and Openshift. Enterprise level messaging
+      in cost-effective way. For new businesses as well as migrating
+      existing non-cloud applications."
 
     # feature item loop
     - name: "Kubernetes"
       icon: "ti-package"
-      content: "The operator Container Image...."
+      content: "ArtemisCloud works smoothly within Kubernetes environment and stay up to date.
+      Getting feedbacks and expectations from opensource community and improve functionality."
 
     # feature item loop
     - name: "Openshift"
       icon: "ti-package"
-      content: "works with OPS..."
+      content: "The ArtemisCloud works with Openshift platform also.
+      Getting extra benefits like consistent security,
+      built-in monitoring and centralized policy management. It takes advantage of
+      Openshift's Operator-Hub."
 
     # feature item loop
-    - name: "Protocol based"
+    - name: "Protocol Based"
       icon: "ti-alarm-clock"
-      content: "AMQP, MQTT, STOMP, JMS, CORE"
+      content: "Rich protocol choice. AMQP, MQTT, STOMP, JMS, and CORE with
+      security supports. Interconnet anywhere, anytime."
 
     # feature item loop
     - name: "High Availability"
       icon: "ti-pulse"
-      content: "HA provided by journal scaledown with the operator"
+      content: "Easy scaling to your specific needs. Message migration on pod
+      failure recovery. Uninterrupted applications."
 
 ######################### Service #####################
 service:
@@ -58,4 +67,3 @@ service:
         enable: true
         label: "Check it out"
         link: "#"
-
